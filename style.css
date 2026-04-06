@@ -48,3 +48,26 @@ body {
     cursor: pointer;
     font-size: 100px;
 }
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2rem;
+    background-color: #cea813;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    z-index: 3;
+}
+
+@keyframes floatUp {
+    from {
+        bottom: -50px;
+        opacity: 1;
+    }
+    to {
+        bottom: 110%;
+        opacity: 0.5;
+    }
+}

@@ -2,7 +2,7 @@ const startScreen = document.getElementById("start-screen");
 const endScreen = document.getElementById("end-screen");
 const startBtn = document.getElementById("start-btn");
 const balloonContainer = document.getElementById("balloon-container");
-const scoreboard = document.getElementById("time");
+const scoreboard = document.getElementById("scoreboard");
 const timeDisplay = document.getElementById("time");
 const scoreDisplay = document.getElementById("score");
 const finalScoreDisplay = document.getElementById("final-score");
@@ -13,6 +13,7 @@ let timeLeft = 30;
 let score = 0;
 
 let gameRunning = false;
+
 function createBalloon() {
     if (!gameRunning) return;
     const balloon = document.createElement("div");
@@ -49,7 +50,7 @@ function startGame() {
         if (timeLeft <= 0) {
             endGame();
         }
-    }, 1000);
+    }, 800);
 }
 function endGame() {
     gameRunning = false;

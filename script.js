@@ -26,6 +26,8 @@ function createBalloon() {
     balloon.style.animationDuration = duration + "s";
 
     balloon.addEventListener("click", () => {
+        popSound.currentTime = 0;
+        popSound.play();
         balloon.remove();
         score++;
         scoreDisplay.textContent = score;

@@ -6,6 +6,7 @@ const scoreboard = document.getElementById("scoreboard");
 const timeDisplay = document.getElementById("time");
 const scoreDisplay = document.getElementById("score");
 const finalScoreDisplay = document.getElementById("final-score");
+const popSound = new Audio("balloon-pop.mp3");
 
 let gameInterval;
 let timeInterval;

@@ -3,7 +3,7 @@
 # Description
 - A simple browser game where players click on balloons to earn points before the timer runs out.
 
-- # Features
+# Features
   - Floating balloons
   - Sound effects when a balloon is popped
   - Timer and score tracker

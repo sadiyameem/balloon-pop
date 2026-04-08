@@ -14,6 +14,11 @@
   - CSS
   - JavaScript
 
+  # Links
+  - https://htmlcolorcodes.com/
+  - https://pixabay.com/sound-effects/
+  - https://emojicombos.com/
+
   # Installation
   - No installation needed just click the demo link to play
  

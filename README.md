@@ -13,6 +13,9 @@
   - HTML
   - CSS
   - JavaScript
+
+  # Installation
+  - No installation needed just click the demo link to play
  
   # Pictures
   <img width="1463" height="759" alt="Screenshot 2026-04-08 at 11 30 49 AM" src="https://github.com/user-attachments/assets/de29c782-5785-4833-b95a-64a097a065ae" />
